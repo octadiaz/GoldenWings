@@ -49,6 +49,7 @@ ul li{
 }
 
 .logo-mp{
+    width: 90px;
     height: 100px;
 }
 
@@ -60,6 +61,20 @@ ul li{
 .row a{
     font-size: 70px;
     color: rgba(39, 39, 144, 0.794);
+}
+
+.info-contacto{
+    margin-bottom: 2rem;
+}
+
+.redes2{
+    font-size: 30px;
+    letter-spacing: 25px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 2rem;
 }
 
 .footer{
