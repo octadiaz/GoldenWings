@@ -11,11 +11,6 @@ body{
     min-height: 100vh;
 }
 
-footer{
-    bottom: 0;
-    position: absolute;
-}
-
 .logo{
     width: 100%;
     height: 50px;
@@ -35,7 +30,7 @@ ul li{
 }
 
 .carousel-caption{
-    color: yellow !important;
+    color: orange !important;
 }
 
 .redes a{
@@ -64,6 +59,10 @@ ul li{
 
 .row a{
     font-size: 70px;
-    color: rgb(39, 39, 144);
+    color: rgba(39, 39, 144, 0.794);
 }
 
+.footer{
+    bottom: 0;
+    position: absolute;
+}
