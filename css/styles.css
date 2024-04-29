@@ -64,5 +64,5 @@ ul li{
 
 .footer{
     bottom: 0;
-    position: absolute;
+    margin-top: 8rem;
 }
