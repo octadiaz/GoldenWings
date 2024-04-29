@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+footer{
+    bottom: 0;
+    position: absolute;
+}
+
+.logo{
+    width: 100%;
+    height: 50px;
+}
+
+ul li{
+    padding: 0 40px;
+}
+
+.nav-link{
+    color: #fff !important;
+}
+
+.bienvenida{
+    background-color: orange;
+    text-align: center;
+}
+
+.carousel-caption{
+    color: yellow !important;
+}
+
+.redes a{
+    font-size: 40px;
+    color: orange;
+    padding: 0 30px;
+}
+
+.nosotros{
+    background-color: #fff;
+}
+
+.texto-nosotros{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo-mp{
+    height: 100px;
+}
+
+.titulo-medios{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.row a{
+    font-size: 70px;
+    color: rgb(39, 39, 144);
+}
+
+.logo-pago{
+    text-align: center;
+}
