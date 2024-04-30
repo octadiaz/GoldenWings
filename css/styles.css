@@ -66,6 +66,10 @@ ul li a:hover{
     font-weight: bold;
 }
 
+.desc-logos{
+    font-weight: bold;
+}
+
 .logo-mp{
     width: 90px;
     height: 100px;
