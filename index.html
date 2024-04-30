@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>GoldenWings</title>
 </head>
-<body>
+<body class="d-flex flex-column">
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img class="logo" src="assets/images/GoldenWings.png" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img class="logo ps-5" src="assets/images/GoldenWings.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,7 +40,7 @@
 <main>
     <div class="p-5 text-white bienvenida">
         <h1 class="display-1">¡Bienvenidos a GoldenWings!</h1>
-        <h3>A continuacion les enseñamos algunos de nuestros productos</h3>
+        <h3>A continuación les enseñamos algunos de nuestros productos</h3>
     </div>
 </main>
     <!-- Jumbotron -->
@@ -80,8 +80,8 @@
     <div class="carousel-item">
         <img src="./assets/images/nuggets.jpg" alt="nuggets" class="d-block" style="width:100%">
         <div class="carousel-caption">
-        <h3>Nuggets de Pollo</h3>
-        <p>¡Los mas sabrosos y crujientes!</p>
+        <h3 class="text-danger">Nuggets de Pollo</h3>
+        <p class="text-danger">¡Los mas sabrosos y crujientes!</p>
         </div> 
         </div>  
     
@@ -98,15 +98,16 @@
 </section>
 <!-- Finaliza Carrusel -->
 
-<footer class="container-fluid bg-dark text-center p-1">
-        <p class="text-white">Copyright © 2024 GoldenWings. Todos los derechos reservados </p>
+<footer class="container-fluid bg-dark text-center py-2">
+    <div class="d-flex justify-content-around align-items-center">
+        <p class="text-light">Copyright © 2024 GoldenWings. Todos los derechos reservados </p>
         <div class="redes">
-            <a href="https://web.whatsapp.com"><i class="fa-brands fa-whatsapp fa-bounce"></i></a>
-            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook fa-bounce"></i></a>
-            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-bounce"></i></a>
-            <a href="https://www.google.com/maps/?hl=es"><i class="fa-solid fa-map-pin fa-bounce"></i></a>
+            <a href="https://web.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.google.com/maps/?hl=es"><i class="fa-solid fa-map-pin"></i></a>
         </div>
-    </section>
+    </div>
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

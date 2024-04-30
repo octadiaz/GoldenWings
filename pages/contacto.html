@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="../css/styles.css">
     <title>Contacto</title>
 </head>
-<body>
+<body class="d-flex flex-column">
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html"><img class="logo" src="../assets/images/GoldenWings.png" alt=""></a>
+            <a class="navbar-brand" href="../index.html"><img class="logo ps-5" src="../assets/images/GoldenWings.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,31 +40,31 @@
     <main>
         <div class="container-fluid">
             <div class="row info-contacto">
-                <div class="col-sm-6 text-start border border-4">
-                <h1 class="display-4 text-warning">GoldenWings</h1>
+                <div class="col-sm-6 text-start border-end">
+                <h1 class="display-4 text-warning mb-5">GoldenWings</h1>
                 <h4 class="text-warning">Ubicacion</h4>
-                <p>Esquina Boulevard Galvez y Las Heras</p> 
+                <p class="mb-4">Esquina Boulevard Galvez y Las Heras</p> 
                 <h4 class="text-warning">Telefono</h4>
-                <p >342-475-1575</p>
-                <h4 class="text-warning">Siguenos en nuestras redes!</h4>
-                <div class="redes2">
+                <p class="mb-4">342-475-1575</p>
+                <h4 class="text-warning text-center mt-5">Siguenos en nuestras redes!</h4>
+                <div class="redes2 text-center">
                     <a href="https://web.whatsapp.com"><i class="fa-brands fa-whatsapp text-success"></i></a>
                     <a href="https://www.facebook.com"><i class="fa-brands fa-facebook text-primary"></i></a>
                     <a href="https://www.instagram.com"><i class="fa-brands fa-instagram text-danger"></i></a></div>  
                 </div>
                 
                 <div class="col-sm-6 d-flex justify-content-center align-items-center">
-                    <form>
-                        <h1 class="text-warning">Hace tu Pedido!</h1>
+                    <form class="d-block border border-4 p-5 shadow-sm rounded">
+                        <h1 class="mb-3">Hace tu Pedido!</h1>
                         <div class="mb-3">
                         <label for="NombreyApellido" class="form-label">Nombre y Apellido</label>
                         <input type="text" class="form-control" id="NombreyApellido">
                         <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Dirección</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1">
-                            <div class="input-group mb-3">
-                                <label class="input-group-text" for="inputGroupSelect01">Productos</label>
-                                <select class="form-select" id="inputGroupSelect01">
+                        <label for="Direccion" class="form-label mt-1">Dirección</label>
+                        <input type="text" class="form-control" id="Direccion">
+                            <div class="input-group mt-4">
+                                <label class="input-group-text me-1 w-35" for="inputGroupProductos">Producto</label>
+                                <select class="form-select h-25" id="inputGroupProductos">
                                 <option selected>Elija aqui.</option>
                                 <option value="0">Alitas</option>
                                 <option value="1">Patitas</option>
@@ -76,9 +76,9 @@
                                 <option value="7">Combo3</option>
                                 </select>
                             </div>
-                            <div class="input-group mb-3">
-                                <label class="input-group-text" for="inputGroupSelect02">Salsas</label>
-                                <select class="form-select" id="inputGroupSelect02">
+                            <div class="input-group">
+                                <label class="input-group-text mt-4 me-1 w-65" for="inputGroupSalsas">Salsas</label>
+                                <select class="form-select mt-4 h-25" id="inputGroupSalsas">
                                 <option selected>Elija aqui.</option>
                                 <option value="1">BBQ</option>
                                 <option value="2">Cheddar</option>
@@ -86,10 +86,10 @@
                                 <option value="4">Ranch</option>
                                 </select>
                             </div>
-                            <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Medio de Pago</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1">
-                            <div class="mb-3"><button type="submit" class="btn btn-warning">Enviar</button>
+                            <div class="mt-4">
+                            <label for="MediodePago" class="form-label">Medio de Pago</label>
+                            <input type="text" class="form-control" id="MediodePago">
+                            <div class="mt-3 text-center"><button type="submit" class="btn btn-warning">Enviar</button>
                             </div>        
                     </form>
                 </div>
@@ -98,16 +98,17 @@
 
 
 
-<footer class="container-fluid bg-dark text-center p-1 footer">
-        <p class="text-white">Copyright © 2024 GoldenWings. Todos los derechos reservados </p>
-        <div class="redes">
-            <a href="https://web.whatsapp.com"><i class="fa-brands fa-whatsapp fa-bounce"></i></a>
-            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook fa-bounce"></i></a>
-            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-bounce"></i></a>
-            <a href="https://www.google.com/maps/?hl=es"><i class="fa-solid fa-map-pin fa-bounce"></i></a>
+    <footer class="container-fluid bg-dark text-center py-2">
+        <div class="d-flex justify-content-around align-items-center">
+            <p class="text-light">Copyright © 2024 GoldenWings. Todos los derechos reservados </p>
+            <div class="redes">
+                <a href="https://web.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.google.com/maps/?hl=es"><i class="fa-solid fa-map-pin"></i></a>
+            </div>
         </div>
-    </section>
-</footer>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

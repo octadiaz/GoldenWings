@@ -11,13 +11,25 @@ body{
     min-height: 100vh;
 }
 
+p{
+    margin-bottom: 0;
+}
+
+span{
+    font-size: 35px;
+}
+
 .logo{
     width: 100%;
-    height: 50px;
+    height: 7rem;
 }
 
 ul li{
     padding: 0 40px;
+}
+
+ul li a:hover{
+    background-color: #333;
 }
 
 .nav-link{
@@ -33,6 +45,12 @@ ul li{
     color: orange !important;
 }
 
+.carousel-item{
+    height: 85vh !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
 .redes a{
     font-size: 40px;
     color: orange;
@@ -44,7 +62,7 @@ ul li{
 }
 
 .texto-nosotros{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -63,21 +81,20 @@ ul li{
     color: rgba(39, 39, 144, 0.794);
 }
 
-.info-contacto{
-    margin-bottom: 2rem;
-}
-
 .redes2{
     font-size: 30px;
     letter-spacing: 25px;
 }
 
-form label{
-    display: block;
-    margin-bottom: 2rem;
+form{
+    background-color: hsla(40, 100%, 50%, 0.172);
+    font-weight: bold;
 }
 
-.footer{
-    bottom: 0;
-    margin-top: 8rem;
+form label{
+    font-weight: bold !important;
+}
+
+footer{
+    margin-top: auto;
 }
