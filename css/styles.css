@@ -81,6 +81,10 @@ ul li a:hover{
     color: rgba(39, 39, 144, 0.794);
 }
 
+.titulo-contacto{
+    font-weight: bold;
+}
+
 .redes2{
     font-size: 30px;
     letter-spacing: 25px;
