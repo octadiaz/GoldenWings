@@ -56,13 +56,6 @@ ul li a:hover{
     background-position: center !important;
 }
 
-.redes a{
-    font-size: 40px;
-    color: orange;
-    padding: 0 30px;
-}
-
-
 .nosotros{
     background-color: #fff;
 }
@@ -133,4 +126,10 @@ form label{
 
 footer{
     margin-top: auto;
+}
+
+.redes a{
+    font-size: 40px;
+    color: orange;
+    padding: 0 30px;
 }
