@@ -44,6 +44,7 @@ ul li a:hover{
 .carrusel-desc{
     font-weight: bold;
     color: rgba(238, 255, 0, 0.798);
+    text-shadow: 2px 2px 5px #000;
 }
 
 .carousel-caption{
