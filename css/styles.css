@@ -50,12 +50,6 @@ ul li a:hover{
     color: orange !important;
 }
 
-.carousel-item{
-    /* height: 85vh !important; */
-    background-size: cover !important;
-    background-position: center !important;
-}
-
 .nosotros{
     background-color: #fff;
 }
@@ -80,6 +74,10 @@ ul li a:hover{
     background-color: orange;
     font-weight: bold;
     color: #000 !important;
+}
+
+.card-productos a:hover{
+    background-color: rgb(223, 150, 13);
 }
 
 .card-img-top{
@@ -124,12 +122,36 @@ form label{
     font-weight: bold !important;
 }
 
-footer{
-    margin-top: auto;
-}
-
 .redes a{
     font-size: 40px;
     color: orange;
     padding: 0 30px;
+}
+
+@media only screen and (max-width: 768px){
+    iframe{
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .carousel-item{
+        height: 80vh !important;
+    }
+    iframe{
+        width: 340px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .carousel-item{
+        height: 90vh !important;
+    }
+    iframe{
+        width: 580px !important;
+    }
+}
+
+footer{
+    margin-top: auto;
 }
