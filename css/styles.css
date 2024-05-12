@@ -1,158 +1,143 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Nunito Sans", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
 }
 
-body{
-    position: relative;
-    min-height: 100vh;
+body {
+  position: relative;
+  min-height: 100vh;
 }
 
-p{
-    margin-bottom: 0;
+p {
+  margin-bottom: 0;
 }
 
-span{
-    font-size: 35px;
+span {
+  font-size: 35px;
 }
 
-.logo{
-    width: 200px;
-    height: 7rem;
+.logo {
+  width: 200px;
+  height: 7rem;
 }
 
-ul li{
-    padding: 0 40px;
+ul li {
+  padding: 0 40px;
+}
+ul li a:hover {
+  background-color: #333;
 }
 
-ul li a:hover{
-    background-color: #333;
+.nav-link {
+  color: #fff !important;
 }
 
-.nav-link{
-    color: #fff !important;
+.bienvenida {
+  background-color: orange;
+  text-align: center;
 }
 
-.bienvenida{
-    background-color: orange;
-    text-align: center;
+.carrusel-desc {
+  font-weight: bold;
+  color: rgba(238, 255, 0, 0.798);
+  text-shadow: 2px 2px 5px #000;
 }
 
-.carrusel-desc{
-    font-weight: bold;
-    color: rgba(238, 255, 0, 0.798);
-    text-shadow: 2px 2px 5px #000;
+.carousel-caption {
+  color: orange !important;
 }
 
-.carousel-caption{
-    color: orange !important;
+.nosotros {
+  background-color: #fff;
+}
+.nosotros .texto-nosotros {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+}
+.nosotros .titulo-productos {
+  font-weight: bold;
+}
+.nosotros .card {
+  background-color: hsla(40, 100%, 50%, 0.172);
+}
+.nosotros .card-productos a {
+  height: 2rem;
+  font-size: 20px !important;
+  background-color: orange;
+  font-weight: bold;
+  color: #000 !important;
+}
+.nosotros .card-productos a:hover {
+  background-color: rgb(223, 150, 13);
+}
+.nosotros .card-img-top {
+  margin-top: 0.7rem;
+  height: 12rem;
+}
+.nosotros .desc-logos {
+  font-weight: bold;
+}
+.nosotros .logo-mp {
+  width: 90px;
+  height: 100px;
+}
+.nosotros .titulo-medios {
+  font-weight: bold;
+  font-size: 20px;
+}
+.nosotros .row a {
+  font-size: 70px;
+  color: rgba(39, 39, 144, 0.794);
 }
 
-.nosotros{
-    background-color: #fff;
+.titulo-contacto {
+  font-weight: bold;
 }
 
-.texto-nosotros{
-    font-size: 20px;
-    font-weight: bold;
-    text-align: justify;
+.redes2 {
+  font-size: 30px;
+  letter-spacing: 25px;
 }
 
-.titulo-productos{
-    font-weight: bold;
+form {
+  background-color: hsla(40, 100%, 50%, 0.172);
+  font-weight: bold;
+}
+form label {
+  font-weight: bold !important;
 }
 
-.card{
-    background-color: hsla(40, 100%, 50%, 0.172);
+.redes a {
+  font-size: 40px;
+  color: orange;
+  padding: 0 30px;
 }
 
-.card-productos a{
-    height: 2rem;
-    font-size: 20px !important;
-    background-color: orange;
-    font-weight: bold;
-    color: #000 !important;
+@media only screen and (max-width: 768px) {
+  iframe {
+    width: 300px;
+  }
 }
-
-.card-productos a:hover{
-    background-color: rgb(223, 150, 13);
+@media only screen and (min-width: 992px) {
+  .carousel-item {
+    height: 80vh !important;
+  }
+  iframe {
+    width: 340px !important;
+  }
 }
-
-.card-img-top{
-    margin-top: 0.7rem;
-    height: 12rem;
+@media only screen and (min-width: 1200px) {
+  .carousel-item {
+    height: 90vh !important;
+  }
+  iframe {
+    width: 580px !important;
+  }
 }
-
-.desc-logos{
-    font-weight: bold;
-}
-
-.logo-mp{
-    width: 90px;
-    height: 100px;
-}
-
-.titulo-medios{
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.row a{
-    font-size: 70px;
-    color: rgba(39, 39, 144, 0.794);
-}
-
-.titulo-contacto{
-    font-weight: bold;
-}
-
-.redes2{
-    font-size: 30px;
-    letter-spacing: 25px;
-}
-
-form{
-    background-color: hsla(40, 100%, 50%, 0.172);
-    font-weight: bold;
-}
-
-form label{
-    font-weight: bold !important;
-}
-
-.redes a{
-    font-size: 40px;
-    color: orange;
-    padding: 0 30px;
-}
-
-@media only screen and (max-width: 768px){
-    iframe{
-        width: 300px;
-    }
-}
-
-@media only screen and (min-width: 992px){
-    .carousel-item{
-        height: 80vh !important;
-    }
-    iframe{
-        width: 340px !important;
-    }
-}
-
-@media only screen and (min-width: 1200px){
-    .carousel-item{
-        height: 90vh !important;
-    }
-    iframe{
-        width: 580px !important;
-    }
-}
-
-footer{
-    margin-top: auto;
-}
+footer {
+  margin-top: auto;
+}/*# sourceMappingURL=styles.css.map */

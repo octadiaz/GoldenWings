@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+$font-family: "Nunito Sans", sans-serif;
+$primary-color: orange;
+$secondary-color: rgba(238, 255, 0, 0.798);
+$accent-color: rgb(223, 150, 13);
+$link-color: rgba(39, 39, 144, 0.794);
+$background-color: hsla(40, 100%, 50%, 0.172);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+span {
+    font-size: 35px;
+}
+
+.logo {
+    width: 200px;
+    height: 7rem;
+}
+
+ul {
+    li {
+        padding: 0 40px;
+
+        a {
+            &:hover {
+                background-color: #333;
+            }
+        }
+    }
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.bienvenida {
+    background-color: $primary-color;
+    text-align: center;
+}
+
+.carrusel-desc {
+    font-weight: bold;
+    color: $secondary-color;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.carousel-caption {
+    color: $primary-color !important;
+}
+
+.nosotros {
+    background-color: #fff;
+
+    .texto-nosotros {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: justify;
+    }
+
+    .titulo-productos {
+        font-weight: bold;
+    }
+
+    .card {
+        background-color: $background-color;
+
+        &-productos {
+            a {
+                height: 2rem;
+                font-size: 20px !important;
+                background-color: $primary-color;
+                font-weight: bold;
+                color: #000 !important;
+
+                &:hover {
+                    background-color: $accent-color;
+                }
+            }
+        }
+
+        &-img-top {
+            margin-top: 0.7rem;
+            height: 12rem;
+        }
+    }
+
+    .desc-logos {
+        font-weight: bold;
+    }
+
+    .logo-mp {
+        width: 90px;
+        height: 100px;
+    }
+
+    .titulo-medios {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .row {
+        a {
+            font-size: 70px;
+            color: $link-color;
+        }
+    }
+}
+
+.titulo-contacto {
+    font-weight: bold;
+}
+
+.redes2 {
+    font-size: 30px;
+    letter-spacing: 25px;
+}
+
+form {
+    background-color: $background-color;
+    font-weight: bold;
+
+    label {
+        font-weight: bold !important;
+    }
+}
+
+.redes {
+    a {
+        font-size: 40px;
+        color: $primary-color;
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    iframe {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .carousel-item {
+        height: 80vh !important;
+    }
+    iframe {
+        width: 340px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .carousel-item {
+        height: 90vh !important;
+    }
+    iframe {
+        width: 580px !important;
+    }
+}
+
+footer {
+    margin-top: auto;
+}
