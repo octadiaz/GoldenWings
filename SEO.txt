@@ -1,0 +1,18 @@
+Metaetiquetas:
+Incluí las metaetiquetas <title> en todas las páginas para definir el título de la página en los resultados de búsqueda.
+También utilicé la metaetiqueta description y keywords en todas las paginas para proporcionar una descripción concisa del contenido de la página.
+
+Enlaces internos:
+Agregué enlaces internos en la barra de navegación de todas las páginas para permitir que los usuarios naveguen fácilmente por el sitio web.
+
+URLs descriptivas:
+Las URLs son descriptivas y fáciles de entender para los usuarios.
+
+Imágenes con atributos ALT:
+Incluí atributos alt en las etiquetas de imágenes en todas las páginas, lo cual es importante para la accesibilidad y tambien comprimí las imágenes.
+
+Etiquetas semánticas:
+Utilicé etiquetas semánticas como <header>, <nav>, <main>, <section>, <footer>, etc., lo cual ayuda a los motores de búsqueda a entender la estructura y el contenido las páginas de manera más clara.
+
+Enlaces externos y redes sociales:
+Incluí enlaces a mis perfiles de redes sociales en el pie de página de todas las páginas, lo cual puede ayudar a mejorar la visibilidad.

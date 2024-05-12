@@ -61,37 +61,40 @@ ul li a:hover {
 .nosotros .titulo-productos {
   font-weight: bold;
 }
-.nosotros .card {
+.nosotros .desc-logos {
+  font-weight: bold;
+}
+.nosotros .titulo-medios {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card {
   background-color: hsla(40, 100%, 50%, 0.172);
 }
-.nosotros .card-productos a {
+.card-productos a {
   height: 2rem;
   font-size: 20px !important;
   background-color: orange;
   font-weight: bold;
   color: #000 !important;
 }
-.nosotros .card-productos a:hover {
+.card-productos a:hover {
   background-color: rgb(223, 150, 13);
 }
-.nosotros .card-img-top {
+.card-img-top {
   margin-top: 0.7rem;
   height: 12rem;
 }
-.nosotros .desc-logos {
-  font-weight: bold;
-}
-.nosotros .logo-mp {
-  width: 90px;
-  height: 100px;
-}
-.nosotros .titulo-medios {
-  font-weight: bold;
-  font-size: 20px;
-}
-.nosotros .row a {
+
+.row a {
   font-size: 70px;
   color: rgba(39, 39, 144, 0.794);
+}
+
+.logo-mp {
+  width: 90px;
+  height: 100px;
 }
 
 .titulo-contacto {
@@ -117,11 +120,13 @@ form label {
   padding: 0 30px;
 }
 
+
 @media only screen and (max-width: 768px) {
   iframe {
     width: 300px;
   }
 }
+
 @media only screen and (min-width: 992px) {
   .carousel-item {
     height: 80vh !important;
@@ -130,6 +135,7 @@ form label {
     width: 340px !important;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   .carousel-item {
     height: 90vh !important;
@@ -138,6 +144,7 @@ form label {
     width: 580px !important;
   }
 }
+
 footer {
   margin-top: auto;
 }/*# sourceMappingURL=styles.css.map */
