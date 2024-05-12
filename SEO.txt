@@ -16,3 +16,6 @@ Utilicé etiquetas semánticas como <header>, <nav>, <main>, <section>, <footer>
 
 Enlaces externos y redes sociales:
 Incluí enlaces a mis perfiles de redes sociales en el pie de página de todas las páginas, lo cual puede ayudar a mejorar la visibilidad.
+
+Compatibilidad Móvil:
+Desarrolle este sitio con diseño responsive y adaptado a dispositivos móviles.
