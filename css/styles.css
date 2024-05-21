@@ -72,6 +72,9 @@ ul li a:hover {
 .card {
   background-color: hsla(40, 100%, 50%, 0.172);
 }
+.card:hover {
+  transform: scale(1.2, 1.2);
+}
 .card-productos a {
   height: 2rem;
   font-size: 20px !important;
@@ -117,16 +120,18 @@ form label {
 .redes a {
   font-size: 40px;
   color: orange;
-  padding: 0 30px;
+  padding: 0 20px;
 }
-
 
 @media only screen and (max-width: 768px) {
   iframe {
     width: 300px;
   }
+  .redes a {
+    font-size: 30px;
+    padding: 0 20px;
+  }
 }
-
 @media only screen and (min-width: 992px) {
   .carousel-item {
     height: 80vh !important;
@@ -135,7 +140,6 @@ form label {
     width: 340px !important;
   }
 }
-
 @media only screen and (min-width: 1200px) {
   .carousel-item {
     height: 90vh !important;
@@ -144,7 +148,6 @@ form label {
     width: 580px !important;
   }
 }
-
 footer {
   margin-top: auto;
 }/*# sourceMappingURL=styles.css.map */
