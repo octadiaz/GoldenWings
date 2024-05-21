@@ -106,7 +106,6 @@ ul {
 
                 &:hover {
                     background-color: $accent-color;
-
                 }
             }
         }
@@ -155,13 +154,16 @@ form {
     }
 }
 
+@media (min-width:385px) and (max-width: 425px) {
+    .redes a{
+        font-size: 30px;
+        padding: 0 10px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     iframe {
         width: 300px;
-    }
-    .redes a{
-        font-size: 30px;
-        padding: 0 20px;
     }
 }
 
